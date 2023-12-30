@@ -49,7 +49,7 @@ function Hero() {
   return (
     <div className="w-full h-[100vh] relative \ overflow-hidden text-white ">
       <div
-        style={{ backgroundImage: "url(../../public/images/hero-bg.jpg)" }}
+        style={{ backgroundImage: "url(/images/hero-bg.jpg)" }}
         className="w-full object-cover h-full   "
       >
         <div className="w-full h-full absolute top-0 left-0 bg-black opacity-50"></div>
