@@ -1,9 +1,9 @@
 import React from "react";
 
 const team = [
-  "/images/team-1.webp",
-  "/images/team-2.webp",
-  "/images/team-3.webp",
+  { img: "/images/team-1.webp", alt: "image" },
+  { img: "/images/team-2.webp", alt: "image" },
+  { img: "/images/team-3.webp", alt: "image" },
 ];
 
 function OurTeam() {
@@ -13,7 +13,7 @@ function OurTeam() {
       <div className="grid md:grid-cols-2 lg:grid-cols-3">
         {team.map((item, i) => (
           <div key={i} className="m-10">
-            <img src={item} className="w-[450px]  " />
+            <img src={item.img} alt={item.alt} className="w-[450px] " />
           </div>
         ))}
       </div>

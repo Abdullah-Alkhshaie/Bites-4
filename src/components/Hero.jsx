@@ -12,7 +12,6 @@ function Hero() {
   const heroProduct = useSelector((state) => state.products.heroProduct);
   const statu = useSelector((state) => state.products.heroStatu);
   const error = useSelector((state) => state.products.error);
-  const [index, setIndex] = useState(0);
 
   const sliderRef = useRef(null);
 
