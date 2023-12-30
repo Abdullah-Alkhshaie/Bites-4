@@ -36,7 +36,7 @@ function ProductCards({ id, image, name, price, description }) {
         <img className="max-w-[500px] max-h-[200px]" src={image} alt={name} />
       </div>
       <div className="px-4">
-        <h3 className="cap capitalize text-xl my-2">{name}</h3>
+        <h3 className="cap capitalize text-center text-xl my-2">{name}</h3>
         <p className="text-sm leading-6 text-gray-300">{description}</p>
         <div className="flex items-center py-5 gap-5">
           <div className="flex gap-x-4 px-5 py-1 bg-[#5e503f] rounded-full">
