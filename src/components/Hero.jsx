@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchHeroProduct } from "../RTK/Slices/ProductSlice";
 import SliderProduct from "./SliderProduct";
@@ -71,10 +71,6 @@ function Hero() {
           className="text-red-900 cursor-pointer"
           size={50}
         />
-        {/* <p>
-          {" "}
-          {heroProduct[index].length}/{heroProduct.length}
-        </p> */}
       </div>
     </div>
   );
