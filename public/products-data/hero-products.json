@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Beef Burger",
+    "price": 8.99,
+    "descrption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora veniam amet pariatur deserunt quasi asperiores consequatur est vel, corporis eaque voluptates aut fugit repellendus. Delectus beatae voluptatem odit debitis dolores.",
+    "image": "/images/slider-1.png"
+  },
+  {
+    "id": 2,
+    "name": "Pizza",
+    "price": 12.99,
+    "descrption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora veniam amet pariatur deserunt quasi asperiores consequatur est vel, corporis eaque voluptates aut fugit repellendus. Delectus beatae voluptatem odit debitis dolores.",
+    "image": "/images/slider-2.webp"
+  },
+  {
+    "id": 3,
+    "name": "Ice Cream",
+    "price": 6.99,
+    "descrption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora veniam amet pariatur deserunt quasi asperiores consequatur est vel, corporis eaque voluptates aut fugit repellendus. Delectus beatae voluptatem odit debitis dolores.",
+    "image": "/images/slider-3.png"
+  }
+]
