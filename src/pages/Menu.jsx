@@ -36,7 +36,7 @@ function Menu() {
       : menuProducts.filter((product) => product.category === category);
 
   const btnStyle =
-    " lg:px-12 py-2 px-3 md:px-10 text-center  rounded-full text-white hover:bg-[#49111c] duration-300 cursor-pointer ";
+    " lg:px-12 py-2 px-1 md:px-10 text-center  rounded-full text-white hover:bg-[#49111c] duration-300 cursor-pointer ";
 
   return (
     <div className="bg-[#0a0908] w-full px-10 py-10">
