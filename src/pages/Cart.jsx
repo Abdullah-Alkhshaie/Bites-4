@@ -135,7 +135,7 @@ function Cart() {
             <div className="bg-[#1f1e1e] my-10 text-lg  rounded-t-lg ">
               <h1 className=" bg-black rounded-t-lg text-3xl py-2 "> Order</h1>
               <div className="flex justify-around py-5">
-                <p>Shipping </p>
+                <p>Delivery </p>
                 <p>Free</p>
               </div>
               <div className="flex justify-around py-5">
